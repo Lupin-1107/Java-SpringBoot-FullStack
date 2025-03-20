@@ -1,0 +1,66 @@
+
+.list-container {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+.service-div{
+    display: flex;
+    margin: 35px auto; 
+    align-items: center;
+    background-color: white;
+ }
+
+ .service-div h1{
+
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 32px;
+    margin-left: 5px;
+}
+
+.address{
+    margin-top: 5px;
+    color:rgb(54, 173, 247);
+
+}
+.service-div h1{
+    text-align: left;
+}
+
+
+.list-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.add-btn {
+    margin-bottom: 10px;
+    background-color: #4094ee;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}

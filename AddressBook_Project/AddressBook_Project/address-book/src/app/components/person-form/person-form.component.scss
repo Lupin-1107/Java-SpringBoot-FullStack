@@ -1,0 +1,89 @@
+.form-container {
+    width: 600px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+}
+
+.form-header {
+    width: 100%;
+    background: #4094ee;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px 5px 0 0;
+}
+
+h2 {
+    margin:0 auto;
+}
+
+.form-style{
+    margin: auto 30px;
+}
+.close-btn {
+    background: white;
+    border: none;
+    color: #4094ee;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.form-group {
+    margin:20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-row .form-group {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.btn-primary {
+    background-color: #477cb5;
+    border: none;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.btn-secondary {
+    background-color: #ccc;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
